@@ -1,0 +1,281 @@
+@page "/ecommerce/product-details"
+
+@inject IJSRuntime JsRuntime;
+
+<PageBreadcrumb Title="Product Details" SubTitle="Ecommerce"/>
+
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="tab-content">
+                            <div
+                                class="tab-pane active show"
+                                id="product-1-item">
+                                <img src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/Defensive-Driving-Icon.png"
+                                    alt="product-1(2)"
+                                    class="img-fluid mx-auto d-block rounded"
+                                />
+                            </div>
+                            <div
+                                class="tab-pane"
+                                id="product-2-item">
+                                <img src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/course-pic-2.jpg"
+                                    alt="product-1(1)"
+                                    class="img-fluid mx-auto d-block rounded"
+                                />
+                            </div>
+                            <div
+                                class="tab-pane"
+                                id="product-3-item">
+                                <img src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/course-pic-3.jpg"
+                                    alt="product-1(3)"
+                                    class="img-fluid mx-auto d-block rounded"
+                                />
+                            </div>
+                            <div
+                                class="tab-pane"
+                                id="product-4-item">
+                                <img src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/course-pic-4.jpg"
+                                    alt="product-1(4)"
+                                    class="img-fluid mx-auto d-block rounded"
+                                />
+                            </div>
+                        </div>
+                        <ul
+                            class="nav nav-pills nav-justified">
+                            <li class="nav-item">
+                                <a
+                                    href="#product-1-item"
+                                    data-bs-toggle="tab"
+                                    aria-expanded="false"
+                                    class="nav-link product-thumb active show">
+                                    <img src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/course-pic-2.jpg"
+                                        alt="product-1(2)"
+                                        class="img-fluid mx-auto rounded"
+                                    />
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    href="#product-2-item"
+                                    data-bs-toggle="tab"
+                                    aria-expanded="false"
+                                    class="nav-link product-thumb">
+                                    <img src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/course-pic-3.jpg"
+                                        alt="product-1(1)"
+                                        class="img-fluid mx-auto rounded"
+                                    />
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    href="#product-3-item"
+                                    data-bs-toggle="tab"
+                                    aria-expanded="false"
+                                    class="nav-link product-thumb">
+                                    <img src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/course-pic-4.jpg"
+                                        alt="product-1(3)"
+                                        class="img-fluid mx-auto rounded"
+                                    />
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    href="#product-4-item"
+                                    data-bs-toggle="tab"
+                                    aria-expanded="false"
+                                    class="nav-link product-thumb">
+                                    <img src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/course-pic-2.jpg"
+                                        alt="product-1(4)"
+                                        class="img-fluid mx-auto rounded"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-lg-8">
+                        <div class="ps-xl-3 mt-3 mt-xl-0">
+                            <a
+                                href="javascript:void(0);"
+                                class="text-primary mb-2 d-inline-block">Detection: Intermediate</a>
+                            <h4 class="mb-3">
+                                Hidden Hazards: Recognizing Risk in Everyday Driving Environments
+                            </h4>
+                            <p
+                                class="text-muted float-start me-3">
+                                <span
+                                    class="bx bxs-star text-warning"></span>
+                                <span
+                                    class="bx bxs-star text-warning"></span>
+                                <span
+                                    class="bx bxs-star text-warning"></span>
+                                <span
+                                    class="bx bxs-star text-warning"></span>
+                                <span
+                                    class="bx bxs-star text-warning"></span>
+                            </p>
+                            <p class="mb-3">
+                                <a
+                                    href="javascript:void(0);"
+                                    class="text-muted">( 36 Customer Reviews
+                                    )</a>
+                            </p>
+                            <h6
+                                class="text-danger text-uppercase">
+                                20 % Off
+                            </h6>
+                            <h4 class="mb-3">
+                                
+                                <span
+                                    class="text-muted me-2"><del>700 pts</del></span>
+                                <b>800 pts</b>
+                            </h4>
+                            <h4>
+                                <span
+                                    class="badge badge-soft-success mb-3">In Progress</span>
+                            </h4>
+
+                            <form
+                                class="d-flex flex-wrap align-items-center mb-3">
+                                <label
+                                    class="my-1 me-2"
+                                    for="color">Mode:</label>
+                                <div class="me-3">
+                                    <select
+                                        class="form-select form-select-sm my-1"
+                                        id="color">
+                                        <option value="1">
+                                            Tutorial
+                                        </option>
+                                        <option value="2">
+                                            Blue
+                                        </option>
+                                        <option value="3">
+                                            Midnight
+                                        </option>
+                                    </select>
+                                </div>
+
+                                <label
+                                    class="my-1 me-2"
+                                    for="sizeinput">Assistance:</label>
+                                <div class="me-sm-3">
+                                    <select
+                                        class="form-select form-select-sm my-1"
+                                        id="sizeinput">
+                                        <option selected>
+                                            Yes
+                                        </option>
+                                        <option value="1">
+                                            No
+                                        </option>
+                                    </select>
+                                </div>
+                            </form>
+
+                            <div
+                                class="mb-3 pb-3 border-bottom">
+                                <h5>
+                                    Applies To :
+                                    <span
+                                        class="text-muted me-2"></span>
+                                    <b>LDV, MDV, HDV</b>
+                                </h5>
+                                <h5>
+                                    Specialty :
+                                    <span
+                                        class="text-muted me-2"></span>
+                                    <b>Delivery trucks</b>
+                                </h5>
+                                <h5>
+                                    Difficulty:
+                                    <span
+                                        class="text-muted me-2"></span>
+                                    <b>Intermediate-to-Difficult</b>
+                                </h5>
+                                <h5>
+                                    Length:
+                                    <span
+                                        class="text-muted me-2"></span>
+                                    <b>30 min</b>
+                                </h5>
+                                <h5>
+                                    Badges:
+                                    <span
+                                        class="text-muted me-2"></span>
+                                    <b>Detection</b>
+                                </h5>
+                            </div>
+                            <div class="mb-3">
+                                <h5>About this course:</h5>
+                                <p class="text-muted mb-1">
+                                    <i
+                                        class="bx bx-check-circle text-primary me-2"></i>
+                                    Learn to anticipate hazards before they appear.
+                                </p>
+                                <p class="text-muted mb-1">
+                                    <i class="bx bx-check-circle text-primary me-2"></i>Lay the foundation for the rest of the Three D’s System.
+                                </p>
+                                <p class="text-muted mb-1">
+                                    <i
+                                        class="bx bx-check-circle text-primary me-2"></i>
+                                    Build visual scanning habits that become second nature.
+                                </p>
+                                <p class="text-muted mb-1">
+                                    <i
+                                        class="bx bx-check-circle text-primary me-2"></i>
+                                    Understand the science behind perception and attention.
+                                </p>
+                                <p class="text-muted mb-1">
+                                    <i
+                                        class="bx bx-check-circle text-primary me-2"></i>
+                                    Practice real-world scenarios in interactive simulations.
+                                </p>
+                                <p class="text-muted mb-1">
+                                    <i class="bx bx-check-circle text-primary me-2"></i>Understand the science behind perception and attention.
+                                </p>
+                            </div>
+
+                            <div>
+                                <button
+                                    type="button"
+                                    class="btn btn-danger me-2">
+                                    <i
+                                        class="bx bx-heart fs-18"></i>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn btn-primary">
+                                    <i
+                                        class="bx bx-cart fs-18 me-2"></i>Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end card body -->
+        </div>
+        <!-- end card -->
+    </div>
+    <!-- end col -->
+</div>
+
+@code {
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JsRuntime.InvokeVoidAsync("loadTheme");
+            await JsRuntime.InvokeVoidAsync("loadApps");
+        }
+    }
+
+}

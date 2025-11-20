@@ -1,0 +1,82 @@
+[
+  {
+    "ContainingType": "AdminDashTemplate.Server.Controllers.ChatController",
+    "Method": "Test",
+    "RelativePath": "api/Chat/Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdminDashTemplate.Server.Controllers.SimController",
+    "Method": "test",
+    "RelativePath": "api/Sim/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdminDashTemplate.Server.Controllers.SimController",
+    "Method": "GetTotalContinuingEducation",
+    "RelativePath": "api/Sim/TotalContinuingEducation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AdminDashTemplate.Server.Controllers.SimController",
+    "Method": "GetTotalReputation",
+    "RelativePath": "api/Sim/TotalReputation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AdminDashTemplate.Server.Controllers.TestController",
+    "Method": "test",
+    "RelativePath": "api/Test/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdminDashTemplate.Server.Controllers.TestController",
+    "Method": "testagain",
+    "RelativePath": "api/Test/testagain",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

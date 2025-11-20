@@ -1,0 +1,531 @@
+@page "/ecommerce/product-list"
+
+@inject IJSRuntime JsRuntime;
+
+<PageBreadcrumb Title="Products List" SubTitle="Ecommerce"/>
+
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <div
+                    class="d-flex flex-wrap justify-content-between gap-3">
+                    <div class="search-bar">
+                        <span>
+                            <i class="bx bx-search-alt">
+                            </i>
+                        </span>
+                        <input
+                            type="search"
+                            class="form-control"
+                            id="search"
+                            placeholder="Search ..."/>
+                    </div>
+                    <div>
+                        <a
+                            href="/ecommerce/product-add"
+                            class="btn btn-primary d-flex align-items-center">
+                            <i class="bx bx-plus me-1">
+                            </i>Add Product
+                        </a>
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <div>
+                <div
+                    class="table-responsive table-centered">
+                    <table class="table text-nowrap mb-0">
+                        <thead
+                            class="bg-light bg-opacity-50">
+                        <tr>
+                            <th>Course Name</th>
+                            <th>Category</th>
+                            <th>Performance Value</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <!-- end thead-->
+                        <tbody>
+                        <tr>
+                            <td>
+                                <div
+                                    class="d-flex align-items-center">
+                                    <div
+                                        class="flex-shrink-0 me-3">
+                                        <a
+                                            href="/ecommerce/product-details">
+                                            <img
+                                                src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/Dedication-Course-Icon.png"
+                                                alt="product-1(1)"
+                                                class="img-fluid avatar-sm"/>
+                                        </a>
+                                    </div>
+                                    <div
+                                        class="flex-grow-1">
+                                        <h5
+                                            class="mt-0 mb-1">
+                                            <a
+                                                href="/ecommerce/product-details"
+                                                class="text-reset">
+                                                G15
+                                                    Seeing Before It Happens: 
+                                                    The Science of Situational Awareness
+                                            </a>
+                                        </h5>
+                                        <span
+                                            class="fs-13">
+                                                Learn to anticipate hazards through visual scanning, mirror discipline, 
+                                                and predictive observation.
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Detection</td>
+                            <td>130 pts</td>
+                            <td class="text-primary">
+                                <i
+                                    class="bx bxs-circle text-primary me-1">
+                                </i>Not Started
+                            </td>
+                            <td>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-secondary me-1">
+                                    <i
+                                        class="bx bx-edit fs-18">
+                                    </i>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-danger">
+                                    <i
+                                        class="bx bx-trash fs-18">
+                                    </i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div
+                                    class="d-flex align-items-center">
+                                    <div
+                                        class="flex-shrink-0 me-3">
+                                        <a
+                                            href="/ecommerce/product-details">
+                                            <img
+                                                src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/Dedication-Course-Icon.png"
+                                                alt="product-2"
+                                                class="img-fluid avatar-sm"/>
+                                        </a>
+                                    </div>
+                                    <div
+                                        class="flex-grow-1">
+                                        <h5
+                                            class="mt-0 mb-1">
+                                            <a
+                                                href="/ecommerce/product-details"
+                                                class="text-reset">
+                                                    Hidden Hazards: Recognizing Risk in Everyday Driving Environments
+                                            </a>
+                                        </h5>
+                                        <span
+                                            class="fs-13">
+                                                Focuses on spotting subtle cues—blind-spot motion, surface changes, 
+                                                and warning signs from other drivers.
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Detection</td>
+                            <td>145 pts</td>
+                            <td class="text-primary">
+                                <i
+                                    class="bx bxs-circle text-primary me-1">
+                                </i>Not Started
+                            </td>
+                            <td>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-secondary me-1">
+                                    <i
+                                        class="bx bx-edit fs-18">
+                                    </i>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-danger">
+                                    <i
+                                        class="bx bx-trash fs-18">
+                                    </i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div
+                                    class="d-flex align-items-center">
+                                    <div
+                                        class="flex-shrink-0 me-3">
+                                        <a
+                                            href="/ecommerce/product-details">
+                                            <img
+                                                src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/Defensive-Driving-Icon.png"
+                                                alt="product-3"
+                                                class="img-fluid avatar-sm"/>
+                                        </a>
+                                    </div>
+                                    <div
+                                        class="flex-grow-1">
+                                        <h5
+                                            class="mt-0 mb-1">
+                                            <a
+                                                href="/ecommerce/product-details"
+                                                class="text-reset">
+                                                    Split-Second Thinking: 
+                                                    Decision-Making Under Pressure
+                                            </a>
+                                        </h5>
+                                        <span
+                                            class="fs-13">
+                                                Teaches cognitive control, reaction prioritization, and how to 
+                                                avoid panic responses in high-stress moments.
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Defensive Driving</td>
+                            <td>100 pts</td>
+                            <td class="text-success">
+                                <i
+                                    class="bx bxs-circle text-success me-1">
+                                </i>In Progress
+                            </td>
+                            <td>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-secondary me-1">
+                                    <i
+                                        class="bx bx-edit fs-18">
+                                    </i>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-danger">
+                                    <i
+                                        class="bx bx-trash fs-18">
+                                    </i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div
+                                    class="d-flex align-items-center">
+                                    <div
+                                        class="flex-shrink-0 me-3">
+                                        <a
+                                            href="/ecommerce/product-details">
+                                            <img
+                                                src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/Defensive-Driving-Icon.png"
+                                                alt="product-4"
+                                                class="img-fluid avatar-sm"/>
+                                        </a>
+                                    </div>
+                                    <div
+                                        class="flex-grow-1">
+                                        <h5
+                                            class="mt-0 mb-1">
+                                            <a
+                                                href="/ecommerce/product-details"
+                                                class="text-reset">
+                                                    Creating Space: Speed, Distance, and Defensive Positioning
+                                            </a>
+                                        </h5>
+                                        <span
+                                            class="fs-13">
+                                                Centers on maintaining safe following distances, escape routes, 
+                                                and time buffers in traffic flow.
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Defensive Driving</td>
+                            <td>30 pts</td>
+                            <td class="text-danger">
+                                <i
+                                    class="bx bxs-circle text-danger me-1">
+                                </i>Overdue
+                            </td>
+                            <td>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-secondary me-1">
+                                    <i
+                                        class="bx bx-edit fs-18">
+                                    </i>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-danger">
+                                    <i
+                                        class="bx bx-trash fs-18">
+                                    </i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div
+                                    class="d-flex align-items-center">
+                                    <div
+                                        class="flex-shrink-0 me-3">
+                                        <a
+                                            href="/ecommerce/product-details">
+                                            <img
+                                                src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/Defensive-Driving-Icon.png"
+                                                alt="product-5"
+                                                class="img-fluid avatar-sm"/>
+                                        </a>
+                                    </div>
+                                    <div
+                                        class="flex-grow-1">
+                                        <h5
+                                            class="mt-0 mb-1">
+                                            <a
+                                                href="/ecommerce/product-details"
+                                                class="text-reset">
+                                                    Momentum and Mindset: Managing Risk Through Control and Planning
+                                            </a>
+                                        </h5>
+                                        <span
+                                            class="fs-13">
+                                                Connects vehicle dynamics and planning: how speed, weight, 
+                                                and road conditions affect defensive decisions.
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Defensive Driving</td>
+                            <td>350 pts</td>
+                            <td class="text-primary">
+                                <i
+                                    class="bx bxs-circle text-primary me-1">
+                                </i>Not Started
+                            </td>
+                            <td>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-secondary me-1">
+                                    <i
+                                        class="bx bx-edit fs-18">
+                                    </i>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-danger">
+                                    <i
+                                        class="bx bx-trash fs-18">
+                                    </i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div
+                                    class="d-flex align-items-center">
+                                    <div
+                                        class="flex-shrink-0 me-3">
+                                        <a
+                                            href="/ecommerce/product-details">
+                                            <img
+                                                src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/Dedication-Course-Icon.png"
+                                                alt="product-4"
+                                                class="img-fluid avatar-sm"/>
+                                        </a>
+                                    </div>
+                                    <div
+                                        class="flex-grow-1">
+                                        <h5
+                                            class="mt-0 mb-1">
+                                            <a
+                                                href="/ecommerce/product-details"
+                                                class="text-reset">
+                                                    Safety Is a Shared Value: Building a Culture of Dedication
+                                            </a>
+                                        </h5>
+                                        <span
+                                            class="fs-13">
+                                                Explores communication, mentorship, and accountability—turning 
+                                                safety from a rule into a workplace habit.
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Dedication</td>
+                            <td>100 pts</td>
+                            <td class="text-danger">
+                                <i
+                                    class="bx bxs-circle text-danger me-1">
+                                </i>Overdue
+                            </td>
+                            <td>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-secondary me-1">
+                                    <i
+                                        class="bx bx-edit fs-18">
+                                    </i>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-danger">
+                                    <i
+                                        class="bx bx-trash fs-18">
+                                    </i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div
+                                    class="d-flex align-items-center">
+                                    <div
+                                        class="flex-shrink-0 me-3">
+                                        <a
+                                            href="/ecommerce/product-details">
+                                            <img
+                                                src="https://avrservicestorage.blob.core.windows.net/$web/assets/images/courses/Dedication-Course-Icon.png"
+                                                alt="product-1(1)"
+                                                class="img-fluid avatar-sm"/>
+                                        </a>
+                                    </div>
+                                    <div
+                                        class="flex-grow-1">
+                                        <h5
+                                            class="mt-0 mb-1">
+                                            <a
+                                                href="/ecommerce/product-details"
+                                                class="text-reset">
+                                                    The Daily Commitment: Turning Safe Driving Into Second Nature
+                                            </a>
+                                        </h5>
+                                        <span
+                                            class="fs-13">
+                                                Focuses on consistency—pre-trip routines, reflection practices, 
+                                                and maintaining focus through fatigue.
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Dedication</td>
+                            <td>350 pts</td>
+                            <td class="text-primary">
+                                <i
+                                    class="bx bxs-circle text-primary me-1">
+                                </i>Not Started
+                            </td>
+                            <td>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-secondary me-1">
+                                    <i
+                                        class="bx bx-edit fs-18">
+                                    </i>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn btn-sm btn-soft-danger">
+                                    <i
+                                        class="bx bx-trash fs-18">
+                                    </i>
+                                </button>
+                            </td>
+                        </tr>
+                        </tbody>
+                        <!-- end tbody -->
+                    </table>
+                    <!-- end table -->
+                </div>
+                <!-- table responsive -->
+                <div
+                    class="align-items-center justify-content-between row g-0 text-center text-sm-start p-3 border-top">
+                    <div class="col-sm">
+                        <div class="text-muted">
+                            Showing
+                            <span class="fw-semibold">
+                                7
+                            </span>
+                            of
+                            <span class="fw-semibold">
+                                15
+                            </span>
+                            Results
+                        </div>
+                    </div>
+                    <div class="col-sm-auto mt-3 mt-sm-0">
+                        <ul
+                            class="pagination pagination-rounded m-0">
+                            <li class="page-item">
+                                <a
+                                    href="#"
+                                    class="page-link">
+                                    <i
+                                        class="bx bx-left-arrow-alt">
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="page-item active">
+                                <a
+                                    href="#"
+                                    class="page-link">
+                                    1
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a
+                                    href="#"
+                                    class="page-link">
+                                    2
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a
+                                    href="#"
+                                    class="page-link">
+                                    3
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a
+                                    href="#"
+                                    class="page-link">
+                                    <i
+                                        class="bx bx-right-arrow-alt">
+                                    </i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end card body -->
+        </div>
+        <!-- end card -->
+    </div>
+    <!-- end col -->
+</div>
+
+@code {
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JsRuntime.InvokeVoidAsync("loadTheme");
+            await JsRuntime.InvokeVoidAsync("loadApps");
+        }
+    }
+
+}

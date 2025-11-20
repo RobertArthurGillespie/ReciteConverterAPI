@@ -1,0 +1,259 @@
+@page "/ecommerce/order-details"
+
+@inject IJSRuntime JsRuntime;
+
+<SectionContent SectionName="css">
+
+</SectionContent>
+
+<PageBreadcrumb Title="Order Details" SubTitle="Ecommerce"/>
+
+<div class="row justify-content-center">
+    <div class="col-lg-8 col-xl-7">
+        <ul class="progressbar ps-0 my-5 pb-5">
+            <li class="active">Training Finished</li>
+            <li>Reviewed</li>
+            <li>Added to Average</li>
+            <li>Added to Team</li>
+        </ul>
+    </div>
+    <!-- end col -->
+</div>
+<!-- end row -->
+
+<div class="row">
+    <div class="col-xl-7">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title mb-3">
+                    Results From Training #123456
+                </h5>
+                <div class="table-responsive">
+                    <table
+                        class="table table-centered table-dashed mb-0">
+                        <thead class="table-">
+                        <tr>
+                            <th>Training Name</th>
+                            <th>Type</th>
+                            <th>Points</th>
+                            <th>Score</th>
+                        </tr>
+                        </thead>
+                        <!-- end thead -->
+                        <tbody>
+                        <tr>
+                                <td>Creating Space: Speed, Distance, and Defensive Positioning</td>
+                            <td>Detection</td>
+                            <td>740.59</td>
+                            <td>221.77</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                    Hidden Hazards: Recognizing Risk in Everyday Driving Environments
+                            </td>
+                            <td>Defensive Driving</td>
+                            <td>635.99</td>
+                            <td>579.95</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                    Seeing Before It Happens:
+                                    The Science of Situational Awareness
+                            </td>
+                            <td>Detection</td>
+                            <td>99.49</td>
+                            <td>79.49</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                    Split-Second Thinking:
+                                    Decision-Making Under Pressure
+                            </td>
+                            <td>Defensive Driving</td>
+                            <td>650.19</td>
+                            <td>500.38</td>
+                        </tr>
+                        </tbody>
+                        <!-- end tbody -->
+                    </table>
+                    <!-- end table -->
+                </div>
+                <!-- end table responsive -->
+            </div>
+            <!-- end card body -->
+        </div>
+        <!-- end card -->
+    </div>
+    <!-- end col -->
+
+    <div class="col-xl-5">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title mb-3">
+                    Results From Training #123456
+                </h5>
+                <div
+                    class="table-responsive text-nowrap table-centered">
+                    <table class="table mb-0">
+                        <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Points</th>
+                        </tr>
+                        </thead>
+                        <!-- end thead -->
+                        <tbody>
+                        <tr>
+                            <td>Grand Total :</td>
+                            <td>2201.59</td>
+                        </tr>
+                        <tr>
+                            <td>Assisted :</td>
+                            <td>NO</td>
+                        </tr>
+                        <tr>
+                            <td>Difficulty credit :</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-semibold">
+                                Total :
+                            </td>
+                            <td class="fw-semibold">
+                                2266.59
+                            </td>
+                        </tr>
+                        </tbody>
+                        <!-- end tbody -->
+                    </table>
+                    <!-- end table -->
+                </div>
+                <!-- end table responsive -->
+            </div>
+            <!-- end card body -->
+        </div>
+        <!-- end card -->
+    </div>
+    <!-- end col -->
+</div>
+<!-- end row -->
+
+<div class="row">
+    <div class="col-lg-4">
+        <div class="card card-height-100">
+            <div class="card-body">
+                <div class="float-end">
+                    <a
+                        href="javascript:void(0);"
+                        class="text-primary">
+                        <i class="bx bx-edit me-1"></i>
+                        Change
+                    </a>
+                </div>
+                <h5 class="card-title mb-3">
+                    Office Information
+                </h5>
+                <h5 class="">Alice S. Shepherd</h5>
+                <address class="mb-0">
+                    4251 Private Lane, <br />
+                    Valdosta, GA 31601 <br />
+                    <abbr title="phone">Phone :</abbr>
+                    229-269-1411 <br />
+                    <abbr title="mobile">Mobile :</abbr>
+                    740-302-6656
+                </address>
+            </div>
+            <!-- end card body -->
+        </div>
+        <!-- end card -->
+    </div>
+    <!-- end col -->
+    <div class="col-lg-4">
+        <div class="card card-height-100">
+            <div class="card-body">
+                <div class="float-end">
+                    <a
+                        href="javascript:void(0);"
+                        class="text-primary">
+                        <i class="bx bx-edit me-1"></i>
+                        Change
+                    </a>
+                </div>
+                <h5 class="card-title mb-3">
+                   Residence Information
+                </h5>
+                <p class="mb-1">
+                    Occupation :
+                    <span class="text-muted me-2"></span>
+                    <b>Driver - LDV</b>
+                </p>
+                <!-- <p class="mb-1">Holder Name : <span class="text-muted me-2"></span> <b>Alice S. Shepherd</b></p> -->
+                <p class="mb-1">
+                    Fleet :
+                    <span class="text-muted me-2"></span>
+                    <b>Globex</b>
+                </p>
+                <p class="mb-1">
+                    Valid Date :
+                    <span class="text-muted me-2"></span>
+                    <b>21/05</b>
+                </p>
+                <p class="mb-0">
+                    Fleet # :
+                    <span class="text-muted me-2"></span>
+                    <b>xxx</b>
+                </p>
+            </div>
+            <!-- end card body -->
+        </div>
+        <!-- end card -->
+    </div>
+    <!-- end col -->
+    <div class="col-lg-4">
+        <div class="card card-height-100">
+            <div class="card-body">
+                <div class="float-end">
+                    <a
+                        href="javascript:void(0);"
+                        class="text-primary">View All Detail</a>
+                </div>
+                <h5 class="card-title mb-3">
+                    Trainee Information
+                </h5>
+                <div class="text-center">
+                    <i class="bx bx-cart h2"></i>
+                    <h5>Level 5 ranking</h5>
+                    <p class="mb-1">
+                        Trainee ID :
+                        <span
+                            class="text-muted me-2"></span>
+                        <b>#123456</b>
+                    </p>
+                    <p class="mb-0">
+                        Trainings Completed :
+                        <span
+                            class="text-muted me-2"></span>
+                        <b>47</b>
+                    </p>
+                </div>
+            </div>
+            <!-- end card body -->
+        </div>
+        <!-- end card -->
+    </div>
+    <!-- end col -->
+</div>
+<!-- end row -->
+
+@code {
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JsRuntime.InvokeVoidAsync("loadTheme");
+            await JsRuntime.InvokeVoidAsync("loadApps");
+        }
+    }
+
+}
