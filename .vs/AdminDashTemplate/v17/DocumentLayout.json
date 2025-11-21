@@ -7,16 +7,23 @@
       "RelativeMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|solutionrelative:server\\controllers\\simcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|c:\\users\\rober\\source\\repos\\recite_converter\\admindashtemplate\\server\\admindashtemplate.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|solutionrelative:server\\admindashtemplate.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|c:\\users\\rober\\source\\repos\\recite_converter\\admindashtemplate\\server\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|solutionrelative:server\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|c:\\users\\rober\\source\\repos\\recite_converter\\admindashtemplate\\server\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|solutionrelative:server\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|c:\\users\\rober\\source\\repos\\recite_converter\\admindashtemplate\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|c:\\users\\rober\\source\\repos\\recite_converter\\admindashtemplate\\server\\admindashtemplate.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|solutionrelative:server\\admindashtemplate.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rober\\Downloads\\azure-upload-form (1).html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|c:\\users\\rober\\source\\repos\\recite_converter\\admindashtemplate\\server\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|solutionrelative:server\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\recite_converter\\admindashtemplate\\client\\pages\\pages\\apps\\chatbot.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -327,27 +334,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AdminDashTemplate.Server.csproj",
-              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\AdminDashTemplate.Server.csproj",
-              "RelativeDocumentMoniker": "Server\\AdminDashTemplate.Server.csproj",
-              "ToolTip": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\AdminDashTemplate.Server.csproj*",
-              "RelativeToolTip": "Server\\AdminDashTemplate.Server.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-10T14:37:43.308Z",
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\web.config",
+              "RelativeDocumentMoniker": "Server\\web.config",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\web.config",
+              "RelativeToolTip": "Server\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-21T14:05:11.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\TestController.cs",
-              "ToolTip": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\Controllers\\TestController.cs",
-              "RelativeToolTip": "Server\\Controllers\\TestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T21:36:52.606Z",
+              "DocumentIndex": 3,
+              "Title": "AdminDashTemplate.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\AdminDashTemplate.Server.csproj",
+              "RelativeDocumentMoniker": "Server\\AdminDashTemplate.Server.csproj",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\AdminDashTemplate.Server.csproj",
+              "RelativeToolTip": "Server\\AdminDashTemplate.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-10T14:37:43.308Z",
               "EditorCaption": ""
             },
             {
@@ -358,20 +365,20 @@
               "RelativeDocumentMoniker": "Server\\Controllers\\SimController.cs",
               "ToolTip": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\Controllers\\SimController.cs",
               "RelativeToolTip": "Server\\Controllers\\SimController.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAAALAAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAYwB4BAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T20:55:35.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Server\\Program.cs",
               "ToolTip": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\Program.cs",
               "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T21:26:48.751Z",
               "EditorCaption": ""
@@ -379,6 +386,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "azure-upload-form (1).html",
+              "DocumentMoniker": "C:\\Users\\Rober\\Downloads\\azure-upload-form (1).html",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\azure-upload-form (1).html",
+              "ToolTip": "C:\\Users\\Rober\\Downloads\\azure-upload-form (1).html",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\azure-upload-form (1).html",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-21T04:35:26.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Server\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T21:36:52.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Chatbot.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Apps\\Chatbot.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Apps\\Chatbot.razor",
@@ -386,12 +418,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Apps\\Chatbot.razor",
               "ViewState": "AgIAADUHAAAAAAAAAIBJwAUIAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-10T21:37:09.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T21:37:09.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Sales.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Dashboards\\Sales.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Dashboards\\Sales.razor",
@@ -399,12 +430,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Dashboards\\Sales.razor",
               "ViewState": "AgIAALkCAAAAAAAAAAAlwNYCAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T16:18:45.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T16:18:45.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ChatController.cs",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "Server\\Controllers\\ChatController.cs",
@@ -412,12 +442,11 @@
               "RelativeToolTip": "Server\\Controllers\\ChatController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAIBZwBsAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T22:01:17.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:01:17.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "dashboard.analytics.js",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\dashboard.analytics.js",
               "RelativeDocumentMoniker": "Client\\wwwroot\\js\\pages\\dashboard.analytics.js",
@@ -425,12 +454,11 @@
               "RelativeToolTip": "Client\\wwwroot\\js\\pages\\dashboard.analytics.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-27T16:06:16.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T16:06:16.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Chat.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Apps\\Chat.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Apps\\Chat.razor",
@@ -438,12 +466,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Apps\\Chat.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-10T21:36:11.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T21:36:11.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Contacts.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Apps\\Contacts.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Apps\\Contacts.razor",
@@ -451,12 +478,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Apps\\Contacts.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-10T21:36:13.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T21:36:13.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Email.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Apps\\Email.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Apps\\Email.razor",
@@ -464,12 +490,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Apps\\Email.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T12:20:21.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T12:20:21.701Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Server\\Data\\Models\\UserProfile.cs",
               "RelativeDocumentMoniker": "Server\\Data\\Models\\UserProfile.cs",
@@ -477,12 +502,11 @@
               "RelativeToolTip": "Server\\Data\\Models\\UserProfile.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAkwDwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T14:09:51.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T14:09:51.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "dashboard.sales.js",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\dashboard.sales.js",
               "RelativeDocumentMoniker": "Client\\wwwroot\\js\\pages\\dashboard.sales.js",
@@ -490,12 +514,11 @@
               "RelativeToolTip": "Client\\wwwroot\\js\\pages\\dashboard.sales.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-29T18:49:32.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T18:49:32.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Finance.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Dashboards\\Finance.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Dashboards\\Finance.razor",
@@ -503,12 +526,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Dashboards\\Finance.razor",
               "ViewState": "AgIAAMsBAAAAAAAAAAAlwLYBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T14:57:20.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T14:57:20.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\App.razor",
               "RelativeDocumentMoniker": "Client\\App.razor",
@@ -516,12 +538,11 @@
               "RelativeToolTip": "Client\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:49:19.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:49:19.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Program.cs",
               "RelativeDocumentMoniker": "Client\\Program.cs",
@@ -529,12 +550,11 @@
               "RelativeToolTip": "Client\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T14:54:34.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T14:54:34.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "Client\\wwwroot\\index.html",
@@ -542,12 +562,11 @@
               "RelativeToolTip": "Client\\wwwroot\\index.html",
               "ViewState": "AgIAAAcAAAAAAAAAAGBnwBoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-27T12:40:44.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T12:40:44.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Analytics.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Dashboards\\Analytics.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Dashboards\\Analytics.razor",
@@ -555,12 +574,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Dashboards\\Analytics.razor",
               "ViewState": "AgIAAB4DAAAAAAAAACBjwJ4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:25:50.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:25:50.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "vendors.min.js.map",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\wwwroot\\js\\vendors.min.js.map",
               "RelativeDocumentMoniker": "Client\\wwwroot\\js\\vendors.min.js.map",
@@ -568,12 +586,11 @@
               "RelativeToolTip": "Client\\wwwroot\\js\\vendors.min.js.map",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAADRrTQAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-29T19:00:29.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T19:00:29.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "vendors.js",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\wwwroot\\js\\vendors.js",
               "RelativeDocumentMoniker": "Client\\wwwroot\\js\\vendors.js",
@@ -581,12 +598,11 @@
               "RelativeToolTip": "Client\\wwwroot\\js\\vendors.js",
               "ViewState": "AgIAAHE2AAAAAAAAAAAlwIQ2AABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-27T16:11:28.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T16:11:28.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "apexchart-radialbar.js",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-radialbar.js",
               "RelativeDocumentMoniker": "Client\\wwwroot\\js\\components\\apexchart-radialbar.js",
@@ -594,12 +610,11 @@
               "RelativeToolTip": "Client\\wwwroot\\js\\components\\apexchart-radialbar.js",
               "ViewState": "AgIAAKUAAAAAAAAAACBjwLoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-05T19:46:45.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T19:46:45.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Index.razor",
@@ -607,12 +622,11 @@
               "RelativeToolTip": "Client\\Pages\\Index.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T15:08:50.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T15:08:50.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\MainLayout.razor",
               "RelativeDocumentMoniker": "Client\\MainLayout.razor",
@@ -620,12 +634,11 @@
               "RelativeToolTip": "Client\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T15:14:20.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T15:14:20.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "VerticalLayout.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Layout\\VerticalLayout.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Layout\\VerticalLayout.razor",
@@ -633,12 +646,11 @@
               "RelativeToolTip": "Client\\Pages\\Layout\\VerticalLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:53:04.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:53:04.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Topbar.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Layout\\Shared\\Topbar.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Layout\\Shared\\Topbar.razor",
@@ -646,12 +658,11 @@
               "RelativeToolTip": "Client\\Pages\\Layout\\Shared\\Topbar.razor",
               "ViewState": "AgIAAD0CAAAAAAAAACBjwAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T15:09:32.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T15:09:32.175Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "MainNav.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Layout\\Shared\\MainNav.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Layout\\Shared\\MainNav.razor",
@@ -659,12 +670,11 @@
               "RelativeToolTip": "Client\\Pages\\Layout\\Shared\\MainNav.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T03:25:32.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T03:25:32.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "dashboard.finance.js",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\dashboard.finance.js",
               "RelativeDocumentMoniker": "Client\\wwwroot\\js\\pages\\dashboard.finance.js",
@@ -672,12 +682,11 @@
               "RelativeToolTip": "Client\\wwwroot\\js\\pages\\dashboard.finance.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-29T18:36:03.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T18:36:03.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "widgets.js",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\widgets.js",
               "RelativeDocumentMoniker": "Client\\wwwroot\\js\\pages\\widgets.js",
@@ -685,12 +694,11 @@
               "RelativeToolTip": "Client\\wwwroot\\js\\pages\\widgets.js",
               "ViewState": "AgIAABcAAAAAAAAAAAAiwCQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-27T20:38:29.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T20:38:29.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ProductsList.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Ecommerce\\ProductsList.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Ecommerce\\ProductsList.razor",
@@ -698,12 +706,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Ecommerce\\ProductsList.razor",
               "ViewState": "AgIAALIAAAAAAAAAAAAAwMAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T01:38:38.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T01:38:38.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "AdminDashTemplate.Client.csproj",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\AdminDashTemplate.Client.csproj",
               "RelativeDocumentMoniker": "Client\\AdminDashTemplate.Client.csproj",
@@ -716,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Client\\Properties\\launchSettings.json",
@@ -724,12 +731,11 @@
               "RelativeToolTip": "Client\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-04T16:11:20.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T16:11:20.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\_Imports.razor",
               "RelativeDocumentMoniker": "Client\\_Imports.razor",
@@ -737,12 +743,11 @@
               "RelativeToolTip": "Client\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T15:09:16.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T15:09:16.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Widgets\\Index.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Widgets\\Index.razor",
@@ -750,12 +755,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Widgets\\Index.razor",
               "ViewState": "AgIAAFAAAAAAAAAAAAAuwO4CAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T20:49:19.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T20:49:19.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Modal.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\UI\\Modal.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\UI\\Modal.razor",
@@ -763,12 +767,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\UI\\Modal.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T18:43:05.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T18:43:05.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "setup.html",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\Dashboards\\Reback-Blazor_v1.0\\Documentation\\setup.html",
               "RelativeDocumentMoniker": "..\\..\\Dashboards\\Reback-Blazor_v1.0\\Documentation\\setup.html",
@@ -776,12 +779,11 @@
               "RelativeToolTip": "..\\..\\Dashboards\\Reback-Blazor_v1.0\\Documentation\\setup.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-31T18:12:25.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T18:12:25.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "changelog.html",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\Dashboards\\Reback-Blazor_v1.0\\Documentation\\changelog.html",
               "RelativeDocumentMoniker": "..\\..\\Dashboards\\Reback-Blazor_v1.0\\Documentation\\changelog.html",
@@ -789,12 +791,11 @@
               "RelativeToolTip": "..\\..\\Dashboards\\Reback-Blazor_v1.0\\Documentation\\changelog.html",
               "ViewState": "AgIAACQAAAAAAAAAAIBpwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-31T18:21:28.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T18:21:28.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "Client\\wwwroot\\css\\app.css",
@@ -802,12 +803,11 @@
               "RelativeToolTip": "Client\\wwwroot\\css\\app.css",
               "ViewState": "AgIAABgDAAAAAAAAAAAYwCADAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-31T18:20:54.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T18:20:54.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "AuthLayout.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Layout\\AuthLayout.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Layout\\AuthLayout.razor",
@@ -815,12 +815,11 @@
               "RelativeToolTip": "Client\\Pages\\Layout\\AuthLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:53:07.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:53:07.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "customization.html",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\Dashboards\\Reback-Blazor_v1.0\\Documentation\\customization.html",
               "RelativeDocumentMoniker": "..\\..\\Dashboards\\Reback-Blazor_v1.0\\Documentation\\customization.html",
@@ -828,12 +827,11 @@
               "RelativeToolTip": "..\\..\\Dashboards\\Reback-Blazor_v1.0\\Documentation\\customization.html",
               "ViewState": "AgIAABYAAAAAAAAAAAAtwCcAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-31T18:11:41.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T18:11:41.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "OrderDetails.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Ecommerce\\OrderDetails.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Ecommerce\\OrderDetails.razor",
@@ -841,12 +839,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Ecommerce\\OrderDetails.razor",
               "ViewState": "AgIAAO4AAAAAAAAAAAAiwOkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T15:47:13.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T15:47:13.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "Footer.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Layout\\Shared\\Footer.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Layout\\Shared\\Footer.razor",
@@ -854,12 +851,11 @@
               "RelativeToolTip": "Client\\Pages\\Layout\\Shared\\Footer.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T15:28:59.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T15:28:59.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "Details.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Apps\\Invoices\\Details.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Apps\\Invoices\\Details.razor",
@@ -867,12 +863,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Apps\\Invoices\\Details.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:23:26.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:23:26.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "OrdersList.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Ecommerce\\OrdersList.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Ecommerce\\OrdersList.razor",
@@ -880,12 +875,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Ecommerce\\OrdersList.razor",
               "ViewState": "AgIAACAAAAAAAAAAAAAlwDQBAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T14:55:18.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T14:55:18.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "SellersList.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Ecommerce\\SellersList.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Ecommerce\\SellersList.razor",
@@ -893,12 +887,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Ecommerce\\SellersList.razor",
               "ViewState": "AgIAAL8AAAAAAAAAAAAlwIEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T15:12:58.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T15:12:58.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "CustomerList.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Ecommerce\\CustomerList.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Ecommerce\\CustomerList.razor",
@@ -906,12 +899,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Ecommerce\\CustomerList.razor",
               "ViewState": "AgIAALsAAAAAAAAAAAAlwLYAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T15:14:22.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T15:14:22.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Apps\\Invoices\\Index.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Apps\\Invoices\\Index.razor",
@@ -919,12 +911,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Apps\\Invoices\\Index.razor",
               "ViewState": "AgIAAKMBAAAAAAAAAAAlwLYBAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:23:33.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:23:33.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "Profile.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Pages\\Profile.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Pages\\Profile.razor",
@@ -932,12 +923,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Pages\\Profile.razor",
               "ViewState": "AgIAAPgBAAAAAAAAAAAjwAkCAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-28T18:46:17.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T18:46:17.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "Social.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Apps\\Social.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Apps\\Social.razor",
@@ -945,12 +935,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Apps\\Social.razor",
               "ViewState": "AgIAAGILAAAAAAAAAAAlwG4LAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T12:16:28.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T12:16:28.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "ProductDetails.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Ecommerce\\ProductDetails.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Ecommerce\\ProductDetails.razor",
@@ -958,12 +947,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Ecommerce\\ProductDetails.razor",
               "ViewState": "AgIAAMMAAAAAAAAAACBjwO4AAACPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T20:55:34.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T20:55:34.969Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "ProductAdd.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Ecommerce\\ProductAdd.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Ecommerce\\ProductAdd.razor",
@@ -971,12 +959,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Ecommerce\\ProductAdd.razor",
               "ViewState": "AgIAAFIAAAAAAAAAAAAjwGUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-30T12:33:50.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T12:33:50.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "vendors.min.js",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\wwwroot\\js\\vendors.min.js",
               "RelativeDocumentMoniker": "Client\\wwwroot\\js\\vendors.min.js",
@@ -984,12 +971,11 @@
               "RelativeToolTip": "Client\\wwwroot\\js\\vendors.min.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABoegUAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-29T19:00:32.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T19:00:32.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "apexchart-pie.js",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-pie.js",
               "RelativeDocumentMoniker": "Client\\wwwroot\\js\\components\\apexchart-pie.js",
@@ -997,12 +983,11 @@
               "RelativeToolTip": "Client\\wwwroot\\js\\components\\apexchart-pie.js",
               "ViewState": "AgIAAIQAAAAAAAAAACBjwKEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-29T18:56:13.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T18:56:13.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\Pump_App_Redux\\Pump_App_Redux_Builds\\Pump_Maintenance_Basics\\index.html",
               "RelativeDocumentMoniker": "..\\..\\Pump_App_Redux\\Pump_App_Redux_Builds\\Pump_Maintenance_Basics\\index.html",
@@ -1010,12 +995,11 @@
               "RelativeToolTip": "..\\..\\Pump_App_Redux\\Pump_App_Redux_Builds\\Pump_Maintenance_Basics\\index.html",
               "ViewState": "AgIAAEkAAAAAAAAAAAAiwAkBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-28T21:43:19.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T21:43:19.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "curriculum-page.html",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\CoAxiom_Website\\NotechTheme\\curriculum-page.html",
               "RelativeDocumentMoniker": "..\\..\\CoAxiom_Website\\NotechTheme\\curriculum-page.html",
@@ -1023,12 +1007,11 @@
               "RelativeToolTip": "..\\..\\CoAxiom_Website\\NotechTheme\\curriculum-page.html",
               "ViewState": "AgIAABYCAAAAAAAAACBjwF8BAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-28T12:43:13.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T12:43:13.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "Pie.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Charts\\Pie.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Charts\\Pie.razor",
@@ -1036,12 +1019,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Charts\\Pie.razor",
               "ViewState": "AgIAAAAAAAAAAAAAACBjwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T18:55:42.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T18:55:42.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "Inventory.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Ecommerce\\Inventory.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Ecommerce\\Inventory.razor",
@@ -1049,12 +1031,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Ecommerce\\Inventory.razor",
               "ViewState": "AgIAACcAAAAAAAAAACBjwDkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T18:52:23.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T18:52:23.175Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "apexchart-column.js",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-column.js",
               "RelativeDocumentMoniker": "Client\\wwwroot\\js\\components\\apexchart-column.js",
@@ -1062,12 +1043,11 @@
               "RelativeToolTip": "Client\\wwwroot\\js\\components\\apexchart-column.js",
               "ViewState": "AgIAANgAAAAAAAAAACBjwDUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-27T16:04:31.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T16:04:31.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "curriculum-page-supplementary-materials.html",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\CoAxiom_Website\\NotechTheme\\curriculum-page-supplementary-materials.html",
               "RelativeDocumentMoniker": "..\\..\\CoAxiom_Website\\NotechTheme\\curriculum-page-supplementary-materials.html",
@@ -1075,12 +1055,11 @@
               "RelativeToolTip": "..\\..\\CoAxiom_Website\\NotechTheme\\curriculum-page-supplementary-materials.html",
               "ViewState": "AgIAAOEBAAAAAAAAAAAqwHQBAACZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-28T18:23:06.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T18:23:06.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "curriculum-page-certification.html",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\CoAxiom_Website\\NotechTheme\\curriculum-page-certification.html",
               "RelativeDocumentMoniker": "..\\..\\CoAxiom_Website\\NotechTheme\\curriculum-page-certification.html",
@@ -1088,12 +1067,11 @@
               "RelativeToolTip": "..\\..\\CoAxiom_Website\\NotechTheme\\curriculum-page-certification.html",
               "ViewState": "AgIAAGABAAAAAAAAAAAqwHQBAACXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-28T18:40:47.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T18:40:47.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\UnityBuilds\\index.html",
               "RelativeDocumentMoniker": "..\\..\\UnityBuilds\\index.html",
@@ -1101,12 +1079,11 @@
               "RelativeToolTip": "..\\..\\UnityBuilds\\index.html",
               "ViewState": "AgIAAC8AAAAAAAAAAABxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-27T18:19:31.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T18:19:31.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "index (32).html",
               "DocumentMoniker": "C:\\Users\\Rober\\Downloads\\index (32).html",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\index (32).html",
@@ -1114,12 +1091,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Downloads\\index (32).html",
               "ViewState": "AgIAAC8AAAAAAAAAAAAswGUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-27T18:53:50.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T18:53:50.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\PETE_Rich_Builds\\UnityBuilds\\index.html",
               "RelativeDocumentMoniker": "..\\..\\PETE_Rich_Builds\\UnityBuilds\\index.html",
@@ -1127,12 +1103,11 @@
               "RelativeToolTip": "..\\..\\PETE_Rich_Builds\\UnityBuilds\\index.html",
               "ViewState": "AgIAAIAAAAAAAAAAAAAswAUBAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-27T18:20:28.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T18:20:28.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\PETE_Rich_Builds\\Testing\\UnityBuilds\\index.html",
               "RelativeDocumentMoniker": "..\\..\\PETE_Rich_Builds\\Testing\\UnityBuilds\\index.html",
@@ -1140,12 +1115,11 @@
               "RelativeToolTip": "..\\..\\PETE_Rich_Builds\\Testing\\UnityBuilds\\index.html",
               "ViewState": "AgIAAHsAAAAAAAAAAIBpwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-27T18:22:00.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T18:22:00.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\PETE_Rich_Builds\\Testing\\index.html",
               "RelativeDocumentMoniker": "..\\..\\PETE_Rich_Builds\\Testing\\index.html",
@@ -1153,12 +1127,11 @@
               "RelativeToolTip": "..\\..\\PETE_Rich_Builds\\Testing\\index.html",
               "ViewState": "AgIAACQAAAAAAAAAAAAswDABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-27T18:25:14.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T18:25:14.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "_apexcharts.scss",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_apexcharts.scss",
               "RelativeDocumentMoniker": "Client\\wwwroot\\scss\\plugins\\_apexcharts.scss",
@@ -1166,12 +1139,11 @@
               "RelativeToolTip": "Client\\wwwroot\\scss\\plugins\\_apexcharts.scss",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2025-10-27T16:04:37.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T16:04:37.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "404Alt.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Error\\404Alt.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Error\\404Alt.razor",
@@ -1179,12 +1151,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Error\\404Alt.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:22:47.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:22:47.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "Vector.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Maps\\Vector.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Maps\\Vector.razor",
@@ -1192,12 +1163,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Maps\\Vector.razor",
               "ViewState": "AgIAAE0CAAAAAAAAAIBpwHUCAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:40:59.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:40:59.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "Maintenance.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Pages\\Maintenance.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Pages\\Maintenance.razor",
@@ -1205,12 +1175,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Pages\\Maintenance.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:21:30.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:21:30.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 72,
               "Title": "ComingSoon.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Pages\\ComingSoon.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Pages\\ComingSoon.razor",
@@ -1218,12 +1187,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Pages\\ComingSoon.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:21:17.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:21:17.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 70,
               "Title": "404-2.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Error\\404-2.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Error\\404-2.razor",
@@ -1231,12 +1199,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Error\\404-2.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:19:45.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:19:45.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 71,
               "Title": "404.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Error\\404.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Error\\404.razor",
@@ -1244,12 +1211,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Error\\404.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:19:35.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:19:35.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 73,
               "Title": "SignUp2.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\SignUp2.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\SignUp2.razor",
@@ -1257,12 +1223,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\SignUp2.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:18:45.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:18:45.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 74,
               "Title": "SignUp.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\SignUp.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\SignUp.razor",
@@ -1270,12 +1235,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\SignUp.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:18:39.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:18:39.701Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 75,
               "Title": "SignIn2.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\SignIn2.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\SignIn2.razor",
@@ -1283,12 +1247,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\SignIn2.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:18:34.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:18:34.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 76,
               "Title": "SignIn.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\SignIn.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\SignIn.razor",
@@ -1296,12 +1259,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\SignIn.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:18:28.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:18:28.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 77,
               "Title": "ResetPassword2.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\ResetPassword2.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\ResetPassword2.razor",
@@ -1309,12 +1271,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\ResetPassword2.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:18:22.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:18:22.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 78,
               "Title": "ResetPassword.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\ResetPassword.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\ResetPassword.razor",
@@ -1322,12 +1283,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\ResetPassword.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:18:16.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:18:16.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 79,
               "Title": "LockScreen2.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\LockScreen2.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\LockScreen2.razor",
@@ -1335,12 +1295,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\LockScreen2.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:18:00.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:18:00.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 80,
               "Title": "LockScreen.razor",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\LockScreen.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\LockScreen.razor",
@@ -1348,12 +1307,11 @@
               "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\LockScreen.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T13:16:26.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:16:26.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 81,
               "Title": "AdminDashTemplate.Shared.csproj",
               "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\RECITE_Converter\\AdminDashTemplate\\Shared\\AdminDashTemplate.Shared.csproj",
               "RelativeDocumentMoniker": "Shared\\AdminDashTemplate.Shared.csproj",

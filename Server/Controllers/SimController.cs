@@ -9,6 +9,9 @@ using Microsoft.Net.Http.Headers;
 using System.Diagnostics;
 using System.IO;
 using System.IO.Compression;
+using System.Text;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace AdminDashTemplate.Server.Controllers
 {
@@ -67,6 +70,60 @@ namespace AdminDashTemplate.Server.Controllers
             }
         }
 
+        private void RenamePrimaryTexture(string tempDir, string fbxModelPath, ILogger logger)
+        {
+            // 1. Define the Expected Texture Name from the FBX Metadata.
+            // In the AtlasVertebra model, the hardcoded reference is "ATLAS VERTEBRAE_FINAL.jpg"
+            // We will target this specific name for the primary texture.
+            const string expectedName = "ATLAS VERTEBRAE_FINAL.jpg";
+
+            // 2. Search for common texture filenames in the entire temp directory
+            var textureFiles = Directory.GetFiles(tempDir, "*", SearchOption.AllDirectories)
+                .Where(f => Regex.IsMatch(Path.GetFileName(f), "(base|diffuse|color).*(png|jpg|jpeg)", RegexOptions.IgnoreCase))
+                .ToList();
+
+            if (!textureFiles.Any())
+            {
+                logger.LogWarning("No primary color texture found to rename.");
+                return;
+            }
+
+            // 3. Take the first potential base color texture found
+            string originalTexturePath = textureFiles.First();
+            string originalTextureExtension = Path.GetExtension(originalTexturePath);
+
+            // 4. Define the target path (renamed file, placed next to the FBX for easy linking)
+            // Since we copy the FBX to the root later, we rename the texture in its original location first.
+            string targetDirectory = Path.GetDirectoryName(originalTexturePath);
+            string newTexturePath = Path.Combine(targetDirectory, expectedName);
+
+            // Append the original extension to the expected name
+            if (!newTexturePath.EndsWith(originalTextureExtension, StringComparison.OrdinalIgnoreCase))
+            {
+                newTexturePath += originalTextureExtension;
+            }
+
+            try
+            {
+                if (System.IO.File.Exists(newTexturePath))
+                {
+                    // Delete if it already exists (e.g., in a previous conversion attempt)
+                    System.IO.File.Delete(newTexturePath);
+                }
+
+                // Perform the rename/move operation
+                System.IO.File.Move(originalTexturePath, newTexturePath);
+                logger.LogWarning($"Renamed texture: '{Path.GetFileName(originalTexturePath)}' to '{Path.GetFileName(newTexturePath)}' inside {targetDirectory}");
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, $"Failed to rename texture file: {originalTexturePath}");
+            }
+        }
+        // --- END NEW HELPER METHOD ---
+
+        [RequestSizeLimit(524288000)] // 500 MB
+        [RequestFormLimits(MultipartBodyLengthLimit = 524288000)]
         [HttpPost("ConvertModel")]
         public async Task<IActionResult> ConvertModel()
         {
@@ -161,8 +218,82 @@ namespace AdminDashTemplate.Server.Controllers
                 }
                 else if (modelFileExtension == ".fbx")
                 {
-                    // FBX Conversion via Native Executable (FBX2glTF)
 
+
+                    // FBX Conversion via Native Executable (FBX2glTF)
+                    // Read FBX to find texture references
+                    _logger.LogWarning("reading fbx content, modelFilePath is: " + modelFilePath);
+                    
+                    // Read as bytes first, then convert to string (handles binary data better)
+                    byte[] fbxBytes = System.IO.File.ReadAllBytes(modelFilePath);
+                    string fbxContent = System.Text.Encoding.UTF8.GetString(fbxBytes);
+
+                    // Find all texture files in the directory
+                    string textureSearchDirectory = Path.GetDirectoryName(modelFilePath);
+                    _logger.LogWarning("Texture search directory is: " + textureSearchDirectory);
+                    var textureFiles = Directory.GetFiles(textureSearchDirectory, "*.*")
+                        .Where(f => new[] { ".jpg", ".jpeg", ".png", ".tga" }
+                            .Contains(Path.GetExtension(f).ToLowerInvariant()))
+                        .ToList();
+
+                    _logger.LogWarning("textureFiles count is: " + textureFiles.Count);
+
+                    // If there's only one texture file, try to match it to what FBX expects
+                    if (textureFiles.Count > 0)
+                    {
+                        bool foundTexture = false;
+                        string actualTexture = string.Empty;
+                        for (int i = 0; i < textureFiles.Count; i++) {
+                            if (!foundTexture)
+                            {
+                                if (!textureFiles[i].ToLowerInvariant().Contains("normal"))
+                                {
+                                    foundTexture = true;
+                                    actualTexture = textureFiles[i];
+                                }
+                            }
+                            
+                        }
+                        //string actualTexture = textureFiles[0];
+                        string actualName = Path.GetFileName(actualTexture);
+                        _logger.LogWarning("actualName variable is: " + actualName);
+                        // Look for texture references in FBX (simplified pattern)
+                        // More specific regex - look for common texture filename patterns
+                        // This looks for filenames that are 3-100 chars long with valid filename characters
+                        var textureMatches = System.Text.RegularExpressions.Regex.Matches(
+                            fbxContent,
+                            @"\b([a-zA-Z0-9_\- ]+\.(?:jpg|jpeg|png|tga))\b",
+                            System.Text.RegularExpressions.RegexOptions.IgnoreCase
+                        );
+
+                        if (textureMatches.Count > 0)
+                        {
+                            // Find the most likely texture name (shortest reasonable match)
+                            string expectedName = textureMatches
+                            .Cast<System.Text.RegularExpressions.Match>()
+                            .Select(m => m.Groups[1].Value)
+                            .Where(name => name.Length > 5 && name.Length < 100) // Filter out garbage
+                            .Where(name => !name.Contains("normal", StringComparison.OrdinalIgnoreCase)) // Skip normal maps
+                            .Where(name => !name.Contains("roughness", StringComparison.OrdinalIgnoreCase)) // Skip roughness maps
+                            .Where(name => !name.Contains("metallic", StringComparison.OrdinalIgnoreCase)) // Skip metallic maps
+                            .Where(name => !name.Contains("metalness", StringComparison.OrdinalIgnoreCase)) // Skip metalness maps
+                            .Where(name => !name.Contains("ao", StringComparison.OrdinalIgnoreCase)) // Skip ambient occlusion
+                            .Where(name => !name.Contains("height", StringComparison.OrdinalIgnoreCase)) // Skip height maps
+                            .Where(name => !name.Contains("bump", StringComparison.OrdinalIgnoreCase)) // Skip bump maps
+                            .Where(name => !name.Contains("displacement", StringComparison.OrdinalIgnoreCase)) // Skip displacement
+                            .OrderBy(name => name.Length)
+                            .FirstOrDefault();
+
+                            _logger.LogWarning("expectedName variable is: " + expectedName);
+
+                            if (!string.Equals(actualName, expectedName, StringComparison.OrdinalIgnoreCase))
+                            {
+                                string newPath = Path.Combine(textureSearchDirectory, expectedName);
+                                _logger.LogWarning($"Renaming texture from {actualName} to {expectedName}");
+                                System.IO.File.Copy(actualTexture, newPath, true);
+                            }
+                        }
+                    }
                     // *** CRITICAL CHANGE: Use AppContext.BaseDirectory or IWebHostEnvironment ***
                     // to correctly locate deployed files in the App Service wwwroot.
                     string fbx2gltfPath = Path.Combine(AppContext.BaseDirectory, "NativeTools", "FBX2glTF.exe");
@@ -172,15 +303,23 @@ namespace AdminDashTemplate.Server.Controllers
                         _logger.LogError($"FBX2glTF executable not found at: {fbx2gltfPath}");
                         throw new FileNotFoundException($"FBX2glTF executable not found. Ensure it is deployed to the NativeTools folder.");
                     }
+                    string textureDirectory = Path.GetDirectoryName(modelFilePath);
+                    // This will give you: C:\local\Temp\debdf8a0-e33d-4e98-ad0c-26271fbbe775\Lowpoly
 
+                    // Normalize to forward slashes if needed (for consistency with your other paths)
+                    string normalizedTextureDir = textureDirectory.Replace("\\", "/");
+
+                    _logger.LogWarning("normalized texture Dir is: " + normalizedTextureDir);
                     _logger.LogWarning($"Starting FBX conversion using {fbx2gltfPath}...");
-                    string arguments = $"--binary --input \"{modelFilePath}\" --output \"{finalGlbFilePath}\"";
+                    _logger.LogWarning($"modeFilePath is: {modelFilePath}, and finalGlbFilePath is: "+finalGlbFilePath);
+                    string arguments = $"--binary --input \"{modelFilePath}\" --output \"{finalGlbFilePath}\" --embed";
+                    _logger.LogWarning("the arguments are: " + arguments);
 
                     var startInfo = new ProcessStartInfo
                     {
                         FileName = fbx2gltfPath,
                         Arguments = arguments,
-                        WorkingDirectory = tempDir,
+                        WorkingDirectory = normalizedTextureDir,
                         RedirectStandardOutput = true,
                         RedirectStandardError = true,
                         UseShellExecute = false,

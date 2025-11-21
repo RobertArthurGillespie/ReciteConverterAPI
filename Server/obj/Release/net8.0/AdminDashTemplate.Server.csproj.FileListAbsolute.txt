@@ -188,3 +188,4 @@ C:\Users\Rober\source\repos\RECITE_Converter\AdminDashTemplate\Server\bin\Releas
 C:\Users\Rober\source\repos\RECITE_Converter\AdminDashTemplate\Server\bin\Release\net8.0\runtimes\win-x64\native\assimp.dll
 C:\Users\Rober\source\repos\RECITE_Converter\AdminDashTemplate\Server\bin\Release\net8.0\runtimes\win-x86\native\assimp.dll
 C:\Users\Rober\source\repos\RECITE_Converter\AdminDashTemplate\Server\bin\Release\net8.0\NativeTools\FBX2glTF.exe
+C:\Users\Rober\source\repos\RECITE_Converter\AdminDashTemplate\Server\bin\Release\net8.0\web.config
